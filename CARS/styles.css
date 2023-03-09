@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.logoheader{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+nav {
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    margin: 0px 25px 0px 25px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+}
+nav li {
+    text-align: center;
+    display:inline-block;
+}
+nav a {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+   padding: 0.5rem 1rem;
+   display: block;
+}
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+section{
+    border-bottom: 0.12rem solid  #a61f11;
+    margin-bottom: 0.4rem;
+}
+.cars {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 0.12rem solid #a61f11;
+}
+.cars ul {
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+}
+.cars ul p {
+    margin: 0;
+    padding: 2px;
+    list-style-type: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin: 25px;
+    padding: 12px 85px 12px 85px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.cars li {
+    display: inline-block;
+    padding: 8px;
+}
+article {
+    display: inline-block;
+    margin: 2rem;
+}
+article img {
+    border-radius: 14px;
+    float: left;
+
+    margin: 0.3rem;
+}
+article:after{
+    content:"";
+    display:table;
+    clear: both;
+}
